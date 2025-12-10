@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    footer{
+        height: 500px;
+    }
+    .around, .location {
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+    }
+}

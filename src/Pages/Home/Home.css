@@ -1,0 +1,28 @@
+.imgBox img{
+    width: 300px !important;
+}
+section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ABC9C;
+    color: white;
+    text-align: center;
+}
+.lineOne::after {
+    content: '';
+    display: block;
+    width: 75px;
+    height: 4px;
+    background-color: white;
+    margin: 1rem auto 1rem auto;
+}
+.lineTwo::after {
+    content: '';
+    display: block;
+    width: 75px;
+    height: 4px;
+    background-color: white;
+    margin: 1rem auto 1rem auto;
+}

@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!api/).*)", 
+      "destination": "/" 
+    }
+  ],
+  "devCommand": "npm run dev", 
+  "ignore": [
+    "node_modules",
+    "dist", 
+    ".git"
+  ]
+}
